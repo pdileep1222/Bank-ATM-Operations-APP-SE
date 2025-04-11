@@ -33,7 +33,7 @@ public class BankAccount implements IBank
 		{
 			balance = balance+amount;
 			System.out.println("Balance should increase by :: "+amount+" account number::  "+accountNumber);
-			System.out.println("\033[1;32m Balance Amount::"+balance+"\033[1;0m");
+			System.out.println("\033[1;31m Balance Amount::"+balance+"\033[1;0m");
 		}
 		}catch(Exception e)
 		{
